@@ -1,10 +1,8 @@
 import {
   frontend,
   backend,
-  ux,
-  prototyping,
+ 
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -13,15 +11,10 @@ import {
   nodejs,
   git,
   figma,
-  docker,
-  postgresql,
-  rubyrails,
-  graphql,
   express,
   firebase,
   jwt,
   mongodb,
-  mysql,
   rest_api,
   stripe,
   coverhunt,
@@ -55,14 +48,8 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "UI/UX Design",
-    icon: ux,
-  },
-  {
-    title: "Software Prototyping",
-    icon: prototyping,
-  },
+
+
 ];
 
 
@@ -93,10 +80,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+
   {
     name: "React JS",
     icon: reactjs,
@@ -114,13 +98,7 @@ const technologies = [
     icon: express,
   },
 
-  // express,
-  // firebase,
-  // jwt,
-  // mongodb,
-  // mysql,
-  // rest_api,
-  // stripe,
+ 
 
   {
     name: "Firebase",
@@ -134,10 +112,7 @@ const technologies = [
     name: "Mongodb",
     icon: mongodb,
   },
-  {
-    name: "Mysql",
-    icon: mysql,
-  },
+
   {
     name: "REST API",
     icon: rest_api,
@@ -150,18 +125,7 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "Rails",
-  //   icon: rubyrails,
-  // },
-  // {
-  //   name: "graphql",
-  //   icon: graphql,
-  // },
-  // {
-  //   name: "postgresql",
-  //   icon: postgresql,
-  // },
+
   {
     name: "git",
     icon: git,
@@ -170,10 +134,7 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+ 
 ];
 
 const experiences = [
@@ -209,63 +170,11 @@ const experiences = [
 
 // Firebase | JWT| Axios | Express JS
 const projects = [
-  {
-    id: "project-2",
-    name: "creative-design-school.",
-    description:
-      "AN ONLINE COURSE SELLER WEBSITE - CURD | DASHBOARD PANEL | PAYMENT. ",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Express JS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Restful API",
-        color: "blue-text-gradient",
-      },
 
-      {
-        name: "Firebase",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JWT",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Axios",
-        color: "blue-text-gradient",
-      },
-
-      {
-        name: "TanStack Query",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "stripe",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: creative,
-    repo: "https://github.com/delwerhossain/creative-design-full-stack",
-    demo: "https://creative-design-school.web.app/",
-  },
   {
     id: "project-1",
-    name: "Proc toy Shop.",
-    description: "AN ONLINE TOY SELLER WEBSITE - CURD . ",
+    name: "chef recipe",
+    description: "AN ONLINE FOOD SELLER WEBSITE  ",
     tags: [
       {
         name: "React",
@@ -293,13 +202,13 @@ const projects = [
       },
     ],
     image: tract,
-    repo: "https://github.com/delwerhossain/Proc-Toyz",
-    demo: "https://client-toy-marketplace.firebaseapp.com",
+    repo: "https://github.com/riyad3399/chef-recipe.git",
+    demo: "https://cook-s-corner.web.app/",
   },
   {
     id: "project-3",
-    name: "Tract FOOD RECIPE",
-    description: "AN ONLINE FOOD RECIPE WEBSITE. ",
+    name: "Racer X Toys",
+    description: "AN ONLINE TOY SELLER WEBSITE - CURD",
     tags: [
       {
         name: "react",
@@ -327,8 +236,8 @@ const projects = [
       },
     ],
     image: proc,
-    repo: "https://github.com/delwerhossain/Treact-Cafe",
-    demo: "https://client-food-chef.web.app/",
+    repo: "https://github.com/riyad3399/racer-x-toys.git",
+    demo: "https://racerxtoys-df94f.web.app/",
   },
   {
     id: "project-4",
@@ -350,7 +259,7 @@ const projects = [
     ],
     image: job_portal,
     repo: "#",
-    demo: "https://ass-9.netlify.app/",
+    demo: "https://rad-bonbon-00fbfe.netlify.app/",
   },
 
   // {

@@ -3,14 +3,12 @@ import nairobi from "./backgrounds/nairobi.png";
 import whiteabstract from "./backgrounds/white-abstract.png";
 import worldmap from "./backgrounds/world-map.png";
 
-import logo from "./logo/d-logo.png";
+import logo from './logo/r-logo.png'
 
 import del from "./personal/del.png";
 
 import backend from "./icons/backend.png";
-import ux from "./icons/ux.png";
 import frontend from "./icons/frontend.png";
-import prototyping from "./icons/prototyping.png";
 import github from "./icons/github.png";
 import close from "./icons/close.png";
 import download from "./icons/download.png";
@@ -24,7 +22,6 @@ import sendHover from "./icons/sendHover.png";
 
 // technologies
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -33,16 +30,12 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import graphql from "./tech/graphql.png";
-import postgresql from "./tech/postgresql.png";
-import rubyrails from "./tech/rubyrails.png";
 
 import express from "./tech/express.png";
 import firebase from "./tech/firebase.png";
 import jwt from "./tech/jwt.png";
 import mongodb from "./tech/mongodb.png";
-import mysql from "./tech/mysql.png";
 import rest_api from "./tech/rest_api.png";
 import stripe from "./tech/stripe.png";
 
@@ -64,9 +57,8 @@ export {
   logo,
   del,
   backend,
-  ux,
+
   frontend,
-  prototyping,
   github,
   close,
   download,
@@ -78,24 +70,20 @@ export {
   send,
   sendHover,
   css,
-  docker,
+ 
   figma,
   git,
   graphql,
   html,
   javascript,
   nodejs,
-  postgresql,
-  rubyrails,
   reactjs,
   redux,
   tailwind,
-  typescript,
   express,
   firebase,
   jwt,
   mongodb,
-  mysql,
   rest_api,
   stripe,
   tract,

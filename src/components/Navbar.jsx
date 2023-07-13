@@ -2,7 +2,8 @@ import {  useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { close, menu, logo } from '../assets';
+import { close, menu,  } from '../assets';
+import logo from '../assets/logo/r-logo.png'
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -23,7 +24,7 @@ const Navbar = () => {
           <img
             src={logo} 
             alt="logo"
-            className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
+            className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain "
           />
 
           {/* if you have text you want besides your logo it comes here.
@@ -32,7 +33,7 @@ const Navbar = () => {
             src={logotext}
             alt="logo"
             className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
-          /> */} <h4 className='text-black text-3xl font-bold mt-5'>Delwer</h4>
+          /> */} <h4 className='text-black text-3xl font-bold '>Riyad</h4>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (
