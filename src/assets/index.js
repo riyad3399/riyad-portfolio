@@ -31,7 +31,6 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import graphql from "./tech/graphql.png";
-
 import express from "./tech/express.png";
 import firebase from "./tech/firebase.png";
 import jwt from "./tech/jwt.png";
@@ -44,6 +43,7 @@ import tract from "./projects/tract.png";
 import proc from "./projects/proc-toys.png";
 import creative from "./projects/creative.png";
 import job_portal from "./projects/job_portal.png";
+import sport_spark from "./projects/sport_spark.png";
 
 // company 
 import coverhunt from "./company/coverhunt.png";
@@ -89,6 +89,7 @@ export {
   tract,
   proc,
   creative,
+  sport_spark,
   job_portal,
   coverhunt,
 };
